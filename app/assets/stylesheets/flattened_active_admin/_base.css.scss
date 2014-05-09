@@ -1,0 +1,42 @@
+/* Active Admin CSS */
+// Reset Away!
+@include global-reset;
+
+// Partials
+@import "flattened_active_admin/typography";
+@import "flattened_active_admin/header";
+@import "flattened_active_admin/forms";
+@import "flattened_active_admin/components/comments";
+@import "flattened_active_admin/components/flash_messages";
+@import "flattened_active_admin/components/date_picker";
+@import "flattened_active_admin/components/popovers";
+@import "flattened_active_admin/components/tables";
+@import "flattened_active_admin/components/batch_actions";
+@import "flattened_active_admin/components/modal_dialog";
+@import "flattened_active_admin/components/blank_slates";
+@import "flattened_active_admin/components/breadcrumbs";
+@import "flattened_active_admin/components/dropdown_menu";
+@import "flattened_active_admin/components/buttons";
+@import "flattened_active_admin/components/grid";
+@import "flattened_active_admin/components/links";
+@import "flattened_active_admin/components/pagination";
+@import "flattened_active_admin/components/panels";
+@import "flattened_active_admin/components/columns";
+@import "flattened_active_admin/components/scopes";
+@import "flattened_active_admin/components/status_tags";
+@import "flattened_active_admin/components/table_tools";
+@import "flattened_active_admin/components/index_list";
+@import "flattened_active_admin/pages/logged_out";
+@import "flattened_active_admin/structure/footer";
+@import "flattened_active_admin/structure/main_structure";
+@import "flattened_active_admin/structure/title_bar";
+
+body {
+  @include sans-family;
+  line-height: 150%;
+  font-size: 72%;
+  background: $body-background-color;
+  margin: 0;
+  padding: 0;
+  color: $text-color;
+}

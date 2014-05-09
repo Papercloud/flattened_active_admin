@@ -1,0 +1,31 @@
+@mixin section-header {
+  border-left: solid 1px #cdcdcd;
+  background: $title-bar-background;
+  font-size: 1.0em;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 0.5em;
+  color: $section-header-text-color;
+  @include icon($section-header-text-color, 1.0em);
+
+  padding: 5px 10px 3px 10px;
+}
+
+@mixin section-background {
+  background: #fafafa;
+  @include rounded(4px);
+}
+
+@mixin section {
+  @include section-background;
+  margin-bottom: 20px;
+
+  > h3 { @include section-header; }
+
+  > div { padding: 3px $section-padding $section-padding $section-padding; }
+
+  hr {
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+  }
+}
