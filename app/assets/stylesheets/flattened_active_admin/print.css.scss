@@ -12,7 +12,7 @@ $text-color: black;
 @import "flattened_active_admin/typography";
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: $default-font, Helvetica, Arial, sans-serif;
   line-height: 150%;
   font-size: 72%;
   background: #fff;

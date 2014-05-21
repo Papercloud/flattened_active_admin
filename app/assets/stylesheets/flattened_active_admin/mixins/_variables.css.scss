@@ -18,6 +18,7 @@ $required-field-marker-color: #aaa !default;
 $page-header-background-color: #5E6469 !default;
 
 // Text
+$default-font: "Helvetica Neue" !default;
 $text-color: #323537 !default;
 $link-color: #38678b !default;
 $header-dropdown-menu-text-color: #cdcdcd !default;
@@ -31,8 +32,12 @@ $form-label-color: $section-header-text-color !default;
 $action-button-default-background: #fbfbfb !default;
 $action-button-hover-background: #FFF !default;
 $action-button-active-background: #fafafa !default;
+$action-button-default-text: $primary-color !default;
+$action-button-hover-text: $primary-color !default;
+$action-button-active-text: $primary-color !default;
 
 // Sizes
+$title-bar-font-weight: bold !default;
 $border-width: 1px !default;
 $horizontal-page-margin: 30px !default;
 $sidebar-width: 270px !default;

@@ -7,7 +7,7 @@ require "flattened_active_admin/version"
 Gem::Specification.new do |s|
   s.name        = "flattened_active_admin"
   s.version     = FlattenedActiveAdmin::VERSION
-  s.authors     = ["TODO: Isaac Norman"]
+  s.authors     = ["Isaac Norman"]
   s.email       = ["idn@papercloud.com.au"]
   s.homepage    = "http://github.com/RustComet/flattened_active_admin"
   s.summary     = "A Simple Add on to Active Admin to give it a flatter feel."
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", ">= 4.0.0"
+  s.add_dependency "rails", ">= 3.2.0"
 
   s.add_development_dependency "sqlite3"
 end
