@@ -5,6 +5,14 @@ Flattened Active Admin
 
 [Active Admin](http://www.activeadmin.info/) is great, but can be a little difficult to customize. The aim of Flattened Active admin is to give the interface a facelift, as well as make it easier to give it that personal touch.
 
+### Release Notes:
+
+**0.0.3**
+
+* Added the ability to set the default font for the interface.
+* Added the ability to change the text colour for action item text in various states.
+* Added the ability to set the font-weight on the title bar.
+
 Installation
 ------------
 
