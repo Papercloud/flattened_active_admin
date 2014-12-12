@@ -40,3 +40,95 @@ body {
   padding: 0;
   color: $text-color;
 }
+
+// Clear Filter + Batch actions buttons
+form.filter_form a.clear_filters_btn, 
+a.table_tools_button, 
+.table_tools .dropdown_menu_button, 
+form fieldset.buttons li.cancel a, 
+form fieldset.actions li.cancel a,
+.ui-dialog .ui-dialog-buttonpane button:last-child{
+  background-color: $secondary-color !important;
+  border: solid 1px lighten($primary-color, 50%) !important;
+}
+
+
+// Table styling
+form fieldset legend span, 
+table.index_table th,
+.sidebar_section > h3 {
+  border-left: 0 !important;
+}
+
+table.index_table th:last-child {
+  border-right: 0 !important;
+}
+
+table.index_table tr.even {
+  background-color: #fff !important;
+
+  td {
+    background: none !important;
+  }
+}
+
+table.index_table tr.selected {
+  background-color: $secondary-color !important;
+  
+  td {
+    background: none !important;
+  }
+}
+// Form styling
+.sidebar_section,form fieldset.inputs {
+  background-color: #fff !important;
+  border: 1px solid $secondary-color !important;
+}
+
+form input[type=text], form input[type=password], form input[type=email], form input[type=number], form input[type=url], form input[type=tel], form textarea {
+  border: 1px solid lighten($primary-color, 50%) !important;
+}
+
+// Dropdown menu styling
+.dropdown_menu .dropdown_menu_list_wrapper {
+  box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px !important;
+  background-color: $primary-color !important;
+  border: solid 1px $primary-color !important;
+}
+
+.dropdown_menu .dropdown_menu_list_wrapper .dropdown_menu_list {
+  border: solid 1px $secondary-color !important;
+  box-shadow: rgba(0,0,0,0) 0 0 0 !important;
+}
+
+// Popover styling
+.ui-dialog .ui-dialog-titlebar {
+  text-align: center !important;
+  font-size: 1.3em !important;
+  padding: 20px !important;
+  background: 0 !important;
+  line-height: 24px !important;
+}
+
+.ui-dialog-buttonset {
+  text-align: center !important;
+}
+
+// Date picker styling
+.ui-datepicker-month,
+.ui-datepicker-year{
+  font-size: 0.8em !important;
+}
+
+// Sizes
+$border-width: 1px !default;
+$horizontal-page-margin: 30px !default;
+$sidebar-width: 270px !default;
+$cell-padding: 5px 10px 3px 10px !default;
+$cell-horizontal-padding: 12px !default;
+$section-padding: 15px !default;
+$text-input-horizontal-padding: 10px !default;
+$text-input-total-padding: $text-input-horizontal-padding * 2 + $border-width * 2;
+
+$blank-slate-border: 1px dashed #DADADA !default;
+
