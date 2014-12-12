@@ -5,6 +5,14 @@ Flattened Active Admin
 
 [Active Admin](http://www.activeadmin.info/) is great, but can be a little difficult to customize. The aim of Flattened Active admin is to give the interface a facelift, as well as make it easier to give it that personal touch.
 
+### Examples
+
+Look at how good your Active Admin can look!
+
+[Example #1](http://d.pr/i/1853F)
+
+[Example #2](http://d.pr/i/14mNN)
+
 ### Release Notes:
 
 **0.0.3**
