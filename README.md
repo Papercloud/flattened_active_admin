@@ -40,7 +40,7 @@ and then the usual
 Usage
 -----
 
-Once you have installed the gem, all you have to do is change the hooks in `assets/stylesheets/active_admin.css.scss` to point to Flattened Active Admin.
+Once you have installed the gem, all you have to do is change the hooks in `assets/stylesheets/active_admin.scss` to point to Flattened Active Admin.
 
 Change:
 
@@ -68,9 +68,9 @@ Once you have the flattened interface working, you can include the customisation
 
 `rails g flattened_active_admin:variables`
 
-This will generate a new SASS file in `assets/stylesheets/flattened_active_admin` called `variables.css.scss`
+This will generate a new SASS file in `assets/stylesheets/flattened_active_admin` called `variables.scss`
 
-In order to make these work, add this line **TO THE TOP** of your `active_admin.css.scss`
+In order to make these work, add this line **TO THE TOP** of your `active_admin.scss`
 
 ```
 @import "flattened_active_admin/variables";
