@@ -5,4 +5,4 @@ Example:
     rails generate flattened_active_admin:variables
 
     This will create:
-        assets/stylesheets/flattened_active_admin/variables.css.scss
+        assets/stylesheets/flattened_active_admin/variables.scss
