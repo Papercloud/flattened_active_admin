@@ -3,7 +3,7 @@ Flattened Active Admin
 
 ### A customized (and customizable) update to the Active Admin interface
 
-[Active Admin](http://www.activeadmin.info/) is great, but can be a little difficult to customize. The aim of Flattened Active admin is to give the interface a facelift, as well as make it easier to give it that personal touch.
+[Active Admin](https://github.com/activeadmin/activeadmin) is great, but can be a little difficult to customize. The aim of Flattened Active admin is to give the interface a facelift, as well as make it easier to give it that personal touch.
 
 ### Examples
 
@@ -26,7 +26,7 @@ Installation
 
 Flattened Active Admin has been built to work with the pre-release of Active Admin 1.0 using >= Rails 4. In order to use this gem, please make sure that you are using Active Admin from their Github repo:
 
-`gem 'activeadmin', github: 'gregbell/active_admin'`
+`gem 'activeadmin', github: 'activeadmin/activeadmin'`
 
 Currently Flattened Active Admin does not support earlier versions of Active Admin.
 
